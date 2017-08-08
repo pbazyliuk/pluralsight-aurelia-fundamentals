@@ -8,6 +8,7 @@ export class EventsList {
 		console.log('construcotr');
 		this.dataRepository = dataRepository;
 		this.router = router;
+		this.whoareyou = 'Dingo'
 	}
 
 	goToDiscussion() {
@@ -18,7 +19,7 @@ export class EventsList {
 	activate(params, routerConfig) {
 		console.log('activated');
 		var pastOrFuture = routerConfig.name === '' ? 'future' : routerConfig.name;
-			return this.dataRepository.getEvents(pastOrFuture)
+			this.dataRepository.getEvents(pastOrFuture)
 				.then(events => {
 					if(params.speaker || params.topic) {
 						var filteredResults = [];

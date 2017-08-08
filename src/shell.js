@@ -27,11 +27,11 @@ export class Shell {
 			},
 			{
 				route: 'jobs',
+				name: 'jobs',
 				viewPorts: {
 					mainContent: { moduleId: 'jobs/jobs' },
 					sideBar: { moduleId: 'sideBar/sponsors' }
 				},
-				name: 'Jobs',
 				title: 'Jobs',
 				nav: true
 			},
@@ -52,6 +52,14 @@ export class Shell {
 					sideBar: { moduleId: 'sideBar/ads' }
 				},
 				name: 'eventDetail'
+			},
+			{
+				route: 'addJob',
+				name: 'addJob',
+				viewPorts: {
+					mainContent: { moduleId: 'jobs/addJob' },
+					sideBar: { moduleId: 'sideBar/sponsors' }
+				}
 			}
 		]);
 	}

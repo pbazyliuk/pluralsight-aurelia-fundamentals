@@ -1,4 +1,13 @@
 <template>
 	<div textcontent.one-time="message"></div>
 	<button type="button" click.call='doSomething(message)'>Click Me</button>
+	<input type="text" ref="input1">
+	<div style.bind='styleString'>${input1.value}</div>
+
+
+	<div style.bind='styleObject' repeat.for="[key, value] of mapCollection">${key} : ${value}</div>
+
+
+	<input type="text" value.bind="person.firstName" />
+	<input type="text" value.bind="person.lastName" /> ${person.fullName}
 </template>

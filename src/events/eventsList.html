@@ -1,6 +1,8 @@
 <template>
 	<div repeat.for="event of events">
-		<compose model.bind="event" view="events/event.html"></compose>
+		<div>Index: ${$index}, First: ${$first}, Last: ${$last}, Even: ${$even}, Odd: ${$odd}</div>
+		<div>${$parent.whoareyou}</div>
+		<compose model.bind="$parent" view="events/event.html"></compose>
 	</div>
 	<button click.trigger="goToDiscussion()" type="submit">Go To Discussion</button>
 </template>
