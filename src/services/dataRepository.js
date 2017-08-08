@@ -25,12 +25,12 @@ export class DataRepository {
 		var promise = new Promise((resolve, reject) => {
 			if (!this.events) {
 				setTimeout(() => {
-					this.events = eventsData.sort((a,b) =>
-					 a.dateTime >= b.dateTime ? 1 : -1);
-					resolve(filterAndFormat(pastOrFuture, this.events));					
-				},2000);
-			}
-			else {
+					this.events = eventsData.sort(
+						(a, b) => (a.dateTime >= b.dateTime ? 1 : -1)
+					);
+					resolve(filterAndFormat(pastOrFuture, this.events));
+				}, 10);
+			} else {
 				resolve(filterAndFormat(pastOrFuture, this.events));
 			}
 		});
