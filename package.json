@@ -4,7 +4,9 @@
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
       "aurelia-framework": "npm:aurelia-framework@^1.0.4",
       "bootstrap": "github:twbs/bootstrap@^3.3.7",
-      "moment": "npm:moment@^2.18.1"
+      "font-awesome": "npm:font-awesome@^4.7.0",
+      "moment": "npm:moment@^2.18.1",
+      "toastr": "github:CodeSeven/toastr@^2.1.3"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",

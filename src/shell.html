@@ -21,6 +21,9 @@
 						<a href.bind="route.href" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1.in">${route.title}</a>
 					</li>
 				</ul>
+				<ul class='nav navbar-nav navbar-right'>
+					<li><i class='fa fa-cog fa-spin fa-3x' style="margin: 0, auto" if.bind="router.isNavigating"></i></li>
+				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
 		</div>
@@ -28,10 +31,10 @@
 	</nav>
 	<div class='container-fluid'>
 		<div class='col-xs-10'>
-			<router-view></router-view>
+			<router-view name="mainContent"></router-view>
 		</div>
 		<div class="col-xs-2">
-			<compose view-model="sponsors/sponsors"></compose>
+			<router-view name="sideBar"></router-view>
 		</div>
 	</div>
 </template>

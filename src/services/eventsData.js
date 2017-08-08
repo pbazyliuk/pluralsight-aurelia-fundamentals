@@ -3,7 +3,7 @@ export var eventsData = [
 		id: 124,
 		description:
 			'REST is an architectural style for building HTTP Web API services that is often misunderstood - many people claim to be building RESTful services but do not know the things they need to be doing to truly qualify as a RESTful service. In this session, you will learn the fundamental architectural constraints that define REST and how you can implement those constraints using ASP.NET Web API. You’ll learn what things you need to do to implement the capabilities that all Web API services should do, such as focus on resources, representations, URIs, content-negotiation, HTTP verbs and headers and so on, as well as the concept of hypermedia and how it pertains to RESTful services.',
-		dateTime: '2013-02-26T23:30:00.000Z',
+		dateTime: '2017-02-26T23:30:00.000Z',
 		title: 'Designing RESTful Services with ASP.NET Web API',
 		speaker: 'Brian Noyes',
 		image: 'BrianNoyes.png'
@@ -12,7 +12,7 @@ export var eventsData = [
 		id: 131,
 		description:
 			'When modeling your data for an enterprise web application, you may have conflicts within your development team, with other development teams, and also with enterprise architects at your organization. With Code First Migrations, you will have the opportunity to get everyone on the same page by synchronizing your database across various environments.',
-		dateTime: '2013-08-27T22:30:00.000Z',
+		dateTime: '2017-08-27T22:30:00.000Z',
 		title: 'Entity Framework Code First Migrations - Shahed Chowdhuri',
 		speaker: 'Shahed Chowdhuri',
 		image: 'ShahedChowdhuri.jpg'
@@ -21,7 +21,7 @@ export var eventsData = [
 		id: 149,
 		description:
 			'The talk discusses the up-and-coming Web Components standards, how they improve web development, how Polymer can help you develop using Web Components today, and whether Web Components enhance (or replace) your favorite web framework.',
-		dateTime: '2015-01-27T23:30:00.000Z',
+		dateTime: '2017-09-27T23:30:00.000Z',
 		title:
 			'Web Components and Polymer - An Introduction to the Future of Web Applications - Steve Albers',
 		speaker: 'Steve Albers',
@@ -108,7 +108,7 @@ export var eventsData = [
 		id: 136,
 		description:
 			"Time IS money - ask Amazon.com.  The performance of your site impacts everything from revenue and customer satisfaction to bounce rate and search engine ranking.  And as much as 80% of your customer's load time does not appear in your web logs!   In this session we argue about what &quot;web performance&quot; means, look at ways it can be measured, and go through examples of the principles, best practices and design decisions that give your site maximum web performance.  ",
-		dateTime: '2014-01-28T23:30:00.000Z',
+		dateTime: '2017-01-28T23:30:00.000Z',
 		title: 'Maximum Web Performance - Steve Albers',
 		speaker: 'Steve Albers',
 		image: 'SteveAlbers.jpg'
